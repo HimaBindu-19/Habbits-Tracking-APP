@@ -1,0 +1,116 @@
+body {
+  overflow-y: scroll;
+}
+
+h1 {
+  color: #800000;
+}
+
+#search-div {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+}
+#search-div form {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#search-div form select {
+  width: 50%;
+  height: 38%;
+  font-size: 18px;
+  padding-left: 2%;
+  margin-right: 2%;
+  border: solid 2px black;
+  border-radius:20px;
+  background-color: white;
+  color:black;
+}
+#search-div form input {
+  height: 33%;
+  width: 70%;
+  margin-right: 3%;
+  font-size: 17px;
+  padding-left: 5%;
+  border-radius: 50px;
+  border: 2px solid black;
+  background-color: white;
+}
+#search-div form button {
+  width: 30%;
+  height: 35%;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #37737E;
+  border: none;
+  color: white;
+  margin-right: 4%;
+}
+#search-div #weekly-view {
+  width: 12%;
+  height: 32%;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #095564;
+  border: none;
+  margin-right: 4%;
+  background-color: #E8576B;
+}
+#search-div #weekly-view a {
+  color: white;
+  text-decoration:none;
+}
+
+#habits-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#habits-div #user-habits {
+  width: 60%;
+  background-color: #183052;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  padding: 0 1%;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  margin-bottom: 2%;
+  border-radius:20px;
+}
+#habits-div #user-habits h4 {
+  margin-right: 40%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  /* color: #37737E; */
+  color:white;
+}
+#habits-div #user-habits select {
+  width: 25%;
+  height: 20%;
+  font-size: 17px;
+  padding-left: 0.5%;
+  margin-right: 0.7%;
+  border-radius:10px;
+}
+#habits-div #user-habits button {
+  width: 16%;
+  height: 20%;
+  font-size: 15px;
+  border-radius: 50px;
+  background-color: #771414;
+  border: none;
+  margin-right: 4%;
+}
+#habits-div #user-habits a {
+  color: white;
+  text-decoration:none;
+  
+}
